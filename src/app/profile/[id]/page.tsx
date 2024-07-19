@@ -45,7 +45,7 @@ const ProfilePage = () => {
             <h1 className="mt-20 mb-4 text-2xl font-medium">
               Adeboye Thompson
             </h1>
-            <div className="flex gap-12 mb-4 items-center justify-center">
+            <div className="flex gap-6 md:gap-12 mb-4 items-center justify-center">
               <div className="flex items-center rounded-md gap-2 btnShadow px-2 py-1 cursor-pointer hover:text-slate-500 text-blue-500">
                 <span className="font-medium">142</span>
                 <span className="text-sm">Posts</span>
