@@ -6,12 +6,14 @@ import { RiChatSmileFill } from "react-icons/ri";
 const NavBottom = () => {
   return (
     <div className="bg-[#f5f5f5] h-12 xl:flex justify-between gap-20 py-2 md:px-4 lg:px-8 xl:px-16 2xl:px-32 items-center hidden">
+       <Link href="/" className="text-slate-700 hover:text-blue-700">
       <div className="w-[10%] flex gap-2 bg-white p-2 rounded-lg items-center">
         <FcHome size={20} />
-        <Link href="/" className="text-slate-700 hover:text-blue-700">
+       
           <span className="text-sm  font-sans">Home</span>
-        </Link>
+        
       </div>
+         </Link>
       <div className="w-[50%] flex gap-10 text-sm text-slate-700 font-sans">
         <Link href="/" className="hover:text-blue-500">
           All
